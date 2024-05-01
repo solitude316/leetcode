@@ -1,3 +1,8 @@
+/**
+ * Remove Duplicates from Sorted Array
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
+*/
+
 #include <iostream>
 #include <vector>
 

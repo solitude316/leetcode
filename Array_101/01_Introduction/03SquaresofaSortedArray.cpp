@@ -1,3 +1,7 @@
+/**
+ * Squares of a Sorted Array
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/
+*/
 #include <iostream>
 #include <vector>
 

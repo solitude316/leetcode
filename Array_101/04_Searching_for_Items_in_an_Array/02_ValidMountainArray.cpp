@@ -1,3 +1,7 @@
+/**
+ * Valid Mountain Array
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/
+*/
 #include <iostream>
 #include <vector>
 
@@ -51,39 +55,6 @@ public:
         }
 
         return (is_switched == true);
-
-
-        // int max_index = 0;
-        // int max = arr[max_index];
-        
-        // for(int i = 1; i < arr.size(); i++) {
-        //     if (max < arr[i])  {
-        //         max_index = i;
-        //         max = arr[max_index];
-        //     }
-        // }
-
-        // if (max == arr[0] || max == arr[arr.size() - 1]) {
-        //     return false;
-        // }
-
-        // for(int i = 0; i < arr.size() - 1; i++) {
-        //     if (arr[i] == arr[i + 1]) {
-        //         return false;
-        //     }
-
-        //     if (i < max_index) {
-        //         if (arr[i] > arr[i + 1]) {
-        //             return false;
-        //         }
-        //     } else {
-        //         if (arr[i] < arr[i + 1]) {
-        //             return false;
-        //         }
-        //     }
-        // }
-
-        // return true;
     }
 };
 
